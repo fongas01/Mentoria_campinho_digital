@@ -63,18 +63,23 @@ h5{
     margin-bottom: 120px;
 }
 
-.container2 .card .honors p{
-    font-size:15px;
-}
-
-.container2 .card .honors img{
-    padding: 0;
-    width: 450px;
+.container2 .image{
+    width: 595px;
     height: 400px;
 }
 
+.container2 .card2{
+    display: flex;
+    justify-content: space-between;
+}
+
+.container2 .card2 .honors p{
+    font-size:15px;
+}
+
 figcaption{
-    width: 430px;
+    width: 600px;
+    margin-bottom: 110px;
 }
 
 .sponsorship .marcs{
