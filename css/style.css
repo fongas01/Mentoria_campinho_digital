@@ -1,0 +1,100 @@
+.main img{
+    width: 480px;
+    height:150px;
+}
+
+.principal p{
+    font-size: 15px;
+}
+
+.full-card{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+h2{
+    margin:120px auto 120px;
+    font-size: 40px;
+}
+
+h3{
+    margin:120px auto 12px;
+    font-size: 30px;
+    text-align: center;
+}
+
+h5{
+    margin: 0 auto 15px auto;
+    font-size: 20px;
+}
+
+
+.container{
+    font-size: 22px;
+    text-align: center;
+    margin:0 10px;
+}
+
+.card{
+    margin: 40px 100px;
+    display: flex;
+    margin-bottom: 150px;
+    justify-content: space-around;
+}
+
+.card img{
+    width: 450px;
+    height: 400px;
+}
+
+.card .paragraph .first, .second, .third{
+    margin:10px auto;
+    text-align: justify;
+    font-size: 22px;
+}
+
+.paragraph {
+    padding: 60px;
+} 
+
+.projects .btn{
+    margin: 30px auto;
+    margin-bottom: 120px;
+}
+
+.container2 .card .honors p{
+    font-size:15px;
+}
+
+.container2 .card .honors img{
+    padding: 0;
+    width: 450px;
+    height: 400px;
+}
+
+figcaption{
+    width: 430px;
+}
+
+.sponsorship .marcs{
+    text-align: center;
+}
+
+.sponsorship .marcs img{
+    margin-top:60px ;
+    margin-bottom: 60px;
+    padding: 60px;
+}
+
+.rodape span{
+    padding: 0 10px;
+}
+
+
+
+
+
+
+
+
