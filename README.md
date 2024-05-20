@@ -5,6 +5,7 @@ No primeiro encontro, definiu-se um Desafio para seguir (https://www.frontendpra
 Deu-se um start na garimpagem de imagens e a criação da estrutura do site;
 
 Recomendações: 
+
       * Criar o CSS;
 			
       * estudar a aplicabilidade do root;
