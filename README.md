@@ -1,4 +1,4 @@
-Trata-se de um trabalho de monitoria da escola Campinho Digital sob utela da mentora KELLY DANGELO.
+Trata-se de um trabalho de mentoria da escola Campinho Digital sob utela da mentora KELLY DANGELO.
 
 No primeiro encontro, definiu-se um Desafio para seguir (https://www.frontendpractice.com/retired/instrument), adaptando-o conforme a minha individualidade.
 
