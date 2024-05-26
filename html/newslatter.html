@@ -13,6 +13,7 @@
     <link rel="stylesheet" href="/css/style.css">
     <link rel="stylesheet" href="/css/base.css">
     <link rel="stylesheet" href="/css/being.css">
+    <link rel="stylesheet" href="/css/newslwtter.css">
 </head>
 <body>
     <!-- header -->
@@ -41,50 +42,48 @@
             </div>
         </nav>
     </header>
+    <h3>NEWSLETTER</h3>
     
     <section class="only-section">
-        <h3>NEWSLETTER</h3>
-        <p><strong>Cadastre-se e Receba nossas novidades! </strong></p>
+     
+            <p><strong>Cadastre-se para receber nossas novidades! </strong></p>
 
-        <form action="">
-            <label>
-                <input type="text" name="nome" id="nome" placeholder=" Digite o teu nome" required>
-            </label>
+            <form action="">
+                <label>
+                    <input type="text" name="nome" id="nome" placeholder=" Digite o teu nome" required>
+                </label><br>
 
-            <label>
-                <input type="text" name="sobrenome" id="sobrenome" placeholder=" Digite o teu sobrenome" required>
-            </label>
+                <label> 
+                    <input type="email" name="email" id="nome" placeholder=" Informe o teu e-mail" required>
+                </label><br>
 
-            <label>
-                <input type="email" name="email" id="nome" placeholder=" Informe o teu e-mail" required>
-            </label>
+                <label> 
+                    <input type="number" name="phone" id="telefone" placeholder=" Digite o teu telefone" required>
+                </label><br>
 
-            <label>
-                <input type="number" name="phone" id="telefone" placeholder=" Digite o teu nome">
-            </label>
-
-            <input type="button" value="Enviar">
-        </form>
-
+                <button type="submit" name="submit" id="contact-register" onclick="cadastrar()">Cadastrar</button>
+            </form>
+        </div>
     </section>
     
+    <!-- footer -->
     <footer>
         <section class="rodape">
             <!-- LADO ESQUERDO -->
             <div class="link_1">
                 <ul>
-                    <a href="/html/home.html">
+                    <a href="/html/index.html">
                         <li><p>[ <span>HOME</span> ]</p></li>
                     </a>
-    
+
                     <a href="/html/what_we_do.html">
                         <li>WHAT WE DO</li>
                     </a>
-    
+
                     <a href="/html/work.html">
                         <li>WORK</li>
                     </a>
-    
+
                     <a href="/html/who_we_are.html">
                         <li>WHO WE ARE</li>
                     </a>
@@ -96,46 +95,46 @@
                     <a href="/html/being.html">
                         <li>BEING HERE</li>
                     </a>
-    
+
                     <a href="/html/careers.html">
                         <li>CAREERS</li> 
                     </a>
-    
+
                     <a href="/html/contact.html">
                         <li>CONTACT</li>
                     </a>
-    
+
                     <a href="/html/privacy.html">
                         <li>PRIVACY</li>
                     </a>
                 </ul>
-            </div>
+            </div> 
 
             <!-- LADO DIREITO -->
             <div class="link_3">
-                <!-- 
-                <a href="#" class="btn_newsletter">
-                    <strong>NEWSLETTER
-                        <i class="fas fa-long-arrow-alt-right"></i>
-                    </strong>
-                </a>
-                -->
+                <button class="btn_newsletter">
+                    <a href="/html/newslatter.html">
+                        <strong>NEWSLETTER
+                            <i class="fas fa-long-arrow-alt-right"></i>
+                        </strong>
+                    </a>
+                </button>
 
                 <div class="social_midia">
-                    <a href="#">
+                    <a href="https://www.instagram.com/accounts/login/" target="_blank">
                         <ion-icon name="logo-instagram"></ion-icon>
                     </a>
                 </div>
             
-                <div class="social_midia">
-                    <a href="#">
-                        <ion-icon name="logo-twitter"></ion-icon>
+                <div class="social_midia" >
+                    <a href="https://x.com/" target="_blank">
+                        <ion-icon name="logo-twitter" ></ion-icon>
                     </a>
                 </div>
-    
+
                 <div class="social_midia"> 
-                    <a href="#">
-                        <ion-icon name="logo-linkedin"></ion-icon>
+                    <a href="https://www.linkedin.com/" target="_blank">
+                        <ion-icon name="logo-linkedin" ></ion-icon>
                     </a>
                 </div>
             </div>
@@ -152,8 +151,7 @@
     </footer>
 
     <!-- JS -->
-        <!-- Importando icones -->
+    <!-- Importando icones -->
     <script script  type = "module"  src = "https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js" > </script >
-    
 </body>
 </html>

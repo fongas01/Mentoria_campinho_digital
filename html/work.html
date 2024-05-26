@@ -13,6 +13,7 @@
     <link rel="stylesheet" href="/css/style.css">
     <link rel="stylesheet" href="/css/base.css">
     <link rel="stylesheet" href="/css/being.css">
+    <link rel="stylesheet" href="/css/project.css">
 </head>
 <body>
     <!-- header -->
@@ -46,7 +47,7 @@
         <div class="content">
             <h3>PROJECTS</h3>
             <p>
-                WORK TEM QUE LINKAR COM PROJECTS
+                WORK IS OUR POWER
             </p> <br>
 
 
@@ -58,35 +59,38 @@
         </div>
 
         <div class="projetos">
-            <div class="card">
-                <fieldset>
-                    <h4>Curso de programação</h4>
-                    <div>
-                        <img src="" alt="">
-                        <p>FrontEnd</p>
-                    </div>
-                    <div>
-                        <img src="" alt="">
-                        <p>BackEnd</p>
-                    </div>
+            <div class="card_project">
+           
+                <fieldset >
+                    <h4>Programação Web</h4>
+                    <section class="prog_web" >
+                        <div>
+                            <img src="/img/frontend.jpg" alt="Frontend foto">
+                            <p>FrontEnd</p>
+                        </div>
+
+                        <div>
+                            <img src="/img/backend.jpg" alt="Backend foto">
+                            <p>BackEnd</p>
+                        </div>
+                    </section>
                 </fieldset>
             </div>
 
-            <div class="card">
+            <div class="card_project">
                 <fieldset>
-                    <h4>Banco de Dados</h4>
-                    <img src="" alt="">
-                    <p>Cientista<span>de dados</span></p>
-                    <p>Engenheira(o)<span>de dados</span></p>
-                    <p>Analista<span>de dados</span></p>
+                    <h4>Área de Dados</h4>
+                    <img src="/img/dados.jpg" alt="Dados_foto">
+                    
+                    <p>Analista de dados</p>
                 </fieldset>
             </div>
 
-            <div class="card">
+            <div class="card_project">
                 <fieldset>
-                    <h4>Curso de Inteligância Artificial</h4>
-                    <img src="" alt="">
-                    <p>lorem<span>lorem</span>Lorem ipsum.</p>
+                    <h4>Inteligância Artificial</h4>
+                    <img src="/img/IA.jpg" alt="int. artificial_foto">
+                    <p>Técnico de IA</p>
                 </fieldset>
             </div>
         </div>
@@ -100,20 +104,18 @@
             quanto ao ontem, hoje e o amanhã.
         </aside>
 
-
-
-
         <h2>
           PROJECTS
         </h2>
     </section>
     
+    <!-- footer -->
     <footer>
         <section class="rodape">
             <!-- LADO ESQUERDO -->
             <div class="link_1">
                 <ul>
-                    <a href="/html/home.html">
+                    <a href="/html/index.html">
                         <li><p>[ <span>HOME</span> ]</p></li>
                     </a>
     
@@ -149,31 +151,33 @@
                         <li>PRIVACY</li>
                     </a>
                 </ul>
-            </div>
+            </div> 
 
             <!-- LADO DIREITO -->
             <div class="link_3">
-                <a href="#" class="btn_newsletter">
-                    <strong>NEWSLETTER
-                        <i class="fas fa-long-arrow-alt-right"></i>
-                    </strong>
-                </a>
+                <button class="btn_newsletter">
+                    <a href="/html/newslatter.html">
+                        <strong>NEWSLETTER
+                            <i class="fas fa-long-arrow-alt-right"></i>
+                        </strong>
+                    </a>
+                </button>
     
                 <div class="social_midia">
-                    <a href="#">
+                    <a href="https://www.instagram.com/accounts/login/" target="_blank">
                         <ion-icon name="logo-instagram"></ion-icon>
                     </a>
                 </div>
             
-                <div class="social_midia">
-                    <a href="#">
-                        <ion-icon name="logo-twitter"></ion-icon>
+                <div class="social_midia" >
+                    <a href="https://x.com/" target="_blank">
+                        <ion-icon name="logo-twitter" ></ion-icon>
                     </a>
                 </div>
     
                 <div class="social_midia"> 
-                    <a href="#">
-                        <ion-icon name="logo-linkedin"></ion-icon>
+                    <a href="https://www.linkedin.com/" target="_blank">
+                        <ion-icon name="logo-linkedin" ></ion-icon>
                     </a>
                 </div>
             </div>
@@ -192,6 +196,5 @@
     <!-- JS -->
         <!-- Importando icones -->
     <script script  type = "module"  src = "https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js" > </script >
-    
 </body>
 </html>

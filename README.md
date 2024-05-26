@@ -20,5 +20,5 @@ Recomendações:
 			
       * linkas as telas conforme o menu e demais links do projeto;
 			
-      * salvar o projeto no github
+      * salvar o projeto no github.
   

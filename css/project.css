@@ -1,0 +1,32 @@
+.only-section{
+ 
+}
+
+h4{
+    text-align: center;
+    margin-top:20px ;
+    margin-bottom:20px ;
+}
+
+.projetos{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 100px;
+}
+
+.prog_web{ 
+    display: flex;
+}
+
+.card_project img{
+    width: 265px;
+    height:250px ;
+    margin: 10px;
+    border-radius: 20px;
+}
+
+.card_project p{
+    text-align: center;
+    background-color:var(--color_text-link)
+}
+

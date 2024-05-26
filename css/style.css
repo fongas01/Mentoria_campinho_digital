@@ -103,8 +103,7 @@ figcaption{
     padding: 0 10px;
 }
 
-/* Adicionadas á novas páginas  */
-
+/* Adicionadas às novas páginas  */
 /* Página what we do*/
 .only-section .content .image{
     background-image: url("https://cdn.pensador.com/img/frase/al/be/albert_pine_o_que_fazemos_para_nos_mesmos_morre_conosco_l8z4mw9.jpg");
@@ -115,16 +114,14 @@ figcaption{
 }
 
 .only-section .content .image2{
-    background-image: url("");
     height: 400px;
     width: 100%;
     background-repeat: no-repeat, no-repeat;
     background-position: center; 
 }
 
-/* Página contato*/
-.map{
-    margin-bottom: 50px;
+.btn_newsletter{
+    background-color: var(--global-primary-color);
+    padding-bottom: 25px;
+    cursor: pointer;
 }
-
-
