@@ -18,7 +18,9 @@ Recomendações:
 			
       * segmentar as partes do projetos;
 			
-      * linkas as telas conforme o menu e demais links do projeto;
+      * linkar as telas conforme o menu e demais links do projeto;
+
+      * Funcionalidade dos botões;      
 			
       * salvar o projeto no github.
   
